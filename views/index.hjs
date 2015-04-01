@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Testklient for Askville API</h1>
+    <p>Video should appear below</p>
+
+	<div class='askville-box' id='1234'></div>    
+
+	<!-- Addera csrf-token till scripthämtningen -->
+	<script type="text/javascript" src='http://localhost:3000/clientTestScript'></script>
+
+  </body>
+</html>
